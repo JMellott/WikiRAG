@@ -1,0 +1,15 @@
+wiki:
+  api_url: "https://oldschool.runescape.wiki/api.php"
+  search_limit: 20
+  max_search_limit: 100
+  limit_step: 10
+  timeout_seconds: 10
+  user_agent: "WikiRAG/1.0"
+  explaintext: true
+  exintro: false
+  max_chars_per_doc: 15000
+
+llm:
+  model_name: "gemini-3.1-flash-lite"
+  temperature: 0.2
+  max_output_tokens: 1024
